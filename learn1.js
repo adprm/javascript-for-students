@@ -1,7 +1,7 @@
-// variable declaration
-var name = "Aditiya Permana";
-var visitor = 123;
-var status = true;
+// JavaScript Variable
+var name = "Aditiya Permana"; // Data type string
+var visitor = 123; // Data type number
+var status = true; // Data type boolean
 var webAddress = "https://adprm.github.io";
 var country = "Indonesia"
 var cities = "Bogor";
