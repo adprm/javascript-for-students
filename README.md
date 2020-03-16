@@ -1,5 +1,4 @@
 # JavaScript-for-Students
-Some source code for learning JavaScript
-Hello JavaScript Enthusiat! My name is Aditiya Permana. 
-These are some source code for learning JavaScript. 
+This time there are several sources of JavaScript code about arrays for practice. 
+Array has many methods in writing the code, and has the use of each function
 Follow the learning based on numbers from learn17.js - finish.
