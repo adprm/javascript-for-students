@@ -3,21 +3,19 @@ Some source code for learning JavaScript
 Hello JavaScript Enthusiat! My name is Aditiya Permana. 
 These are some source code for learning JavaScript. 
 
-# Visit the official web of JavaScript
-https://www.javascript.com/ <br>
-
-# And visit my website
-https://adprm.github.io <br>
-
-# Tools for Learning Javascript
-1. Web Browser (Google Chrome, Firefox, Opera, dll)
-2. Text Editor (recommendation: VS Code)
-
 # Flow Learn
 <ul>
   <li><a href="https://github.com/adprm/JavaScript-for-Students/tree/JavaScript-Fundamentals">1. JavaScript-Fundamentals</a></li>
   <li><a href="https://github.com/adprm/JavaScript-for-Students/tree/JavaScript-Array">2. JavaScript-Array</a></li>
   </ul>
+
+# Visit the official web of JavaScript and My web
+https://www.javascript.com/ <br>
+https://adprm.github.io 
+
+# Tools for Learning Javascript
+1. Web Browser (Google Chrome, Firefox, Opera, dll)
+2. Text Editor (recommendation: VS Code)
 
 # Introduction to JavaScript writing
 JavaScript can be written by two methods, namely internally and externally.
