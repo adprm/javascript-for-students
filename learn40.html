@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM Delete Element by ID</title>
+</head>
+
+<body>
+    <h1 id="content-delete">Ini adalah kontent yang akan di delete</h1>
+    <h2>Konten ini tidak akan di delete</h2>
+</body>
+
+<script>
+    // mengakses element berdasarkan ID
+    var deleteContent = document.getElementById("content-delete");
+
+    // method delete content
+    deleteContent.remove();
+
+    console.log("Kontent h1 telah di hapus");
+    console.log(deleteContent);
+</script>
+
+</html>
