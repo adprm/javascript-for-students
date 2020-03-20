@@ -48,26 +48,26 @@ these are some JavaScript source code for learning and making a project.
         </li>
     </ol>
 
-
 # Welcome JavaScript Fundamental
-JavaScript Code Writing<br>
-<ol type="1">
-        <li>Embed Writing</li>
-        
-        ```<!DOCTYPE html>
-        <html>
-    <head>
-        <title>Learn JS</title>
-        <script>
-            console.log("Hello JS from tag Head");
-        </script>
-    </head>
-    <body>
-        <p>Tutorial Javascript untuk Pemula</p>
-        <script>
-            console.log("Hello JS form tag body");
-        </script>
-    </body>
-    </html>
-```
 
+JavaScript Code Writing<br>
+
+<ol type="1">
+    <li>Embed Writing</li>
+    
+    ```<!DOCTYPE html>
+        <html>
+        <head>
+        <title>Learn JS</title>
+            <script>
+                console.log("Hello JS from tag Head");
+            </script>
+        </head>
+        <body>
+            <p>Tutorial Javascript untuk Pemula</p>
+            <script>
+                console.log("Hello JS form tag body");
+            </script>
+        </body>
+        </html>
+```
