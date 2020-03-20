@@ -5,7 +5,7 @@ these are some JavaScript source code for learning and making a project.
 <ol type="1">
         <li><a
                 href="https://github.com/adprm/JavaScript-for-Students/tree/JavaScript-Fundamentals">JavaScript-Fundemental</a><ul>
-                <li>JS Variable</li>
+                <li>JS Variable & Type Data</li>
                 <li>JS Operator</li>
                 <li>JS Conditional 'If' and 'Switch Case'</li>
                 <li>JS Looping</li>
@@ -13,6 +13,14 @@ these are some JavaScript source code for learning and making a project.
         </li>
         <li>
             <a href="https://github.com/adprm/JavaScript-for-Students/tree/JavaScript-Array">JavaScript-Array</a>
+                 <ul>
+                <li>JS Array Introduction</li>
+                <li>JS Array Get Data</li>
+                <li>JS Array Add Data</li>
+                <li>JS Array Delete Data</li>
+                <li>JS Array Change Data</li>
+                <li>JS Array Methods</li>
+            </ul>
         </li>
         <li>
             <a href="https://github.com/adprm/JavaScript-for-Students/tree/JavaScript-Function">JavaScript-Function</a>
