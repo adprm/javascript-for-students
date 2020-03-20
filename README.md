@@ -55,19 +55,35 @@ JavaScript Code Writing<br>
 <ol type="1">
     <li>Embed Writing</li>
     
-    ```<!DOCTYPE html>
-        <html>
-        <head>
-        <title>Learn JS</title>
-            <script>
-                console.log("Hello JS from tag Head");
-            </script>
-        </head>
-        <body>
-            <p>Tutorial Javascript untuk Pemula</p>
-            <script>
-                console.log("Hello JS form tag body");
-            </script>
-        </body>
-        </html>
-```
+`<!DOCTYPE html>
+    <html>
+       <head>
+       <title>Learn JS</title>
+       <script>
+         console.log("Hello JS from tag Head");
+       </script>
+       </head>
+       <body>
+         <p>Tutorial Javascript untuk Pemula</p>
+         <script>
+           console.log("Hello JS form tag body");
+         </script>
+       </body>
+       </html>`
+       
+<li>Inline Writing</li>
+`<a href="#" onclick="alert('Hello!')">Click Me!</a>`
+
+<li>External Writing</li>
+`<!DOCTYPE html>
+ <html>
+   <head>
+     <title>Learn JS</title>
+   </head>
+   <body>
+    <p>Learning JS</p>
+        <!-- insert external code -->
+        <script src="js-code.js"></script>
+    </body>
+</html>`
+</ul>
