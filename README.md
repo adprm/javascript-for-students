@@ -93,3 +93,7 @@ these are some JavaScript source code for learning and making a project.
 ```
 alert("This is JavaScript");
 ```
+
+3. Attribute Writing
+
+`<button onclick="alert('Hello JavaScript')">Click ME!</button>`
