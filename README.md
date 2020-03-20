@@ -50,4 +50,26 @@ these are some JavaScript source code for learning and making a project.
 
 
 # Welcome JavaScript Fundamental
+JavaScript Code Writing<br>
+<ol type="1">
+        <li>Embed Writing</li>
+        ```<!DOCTYPE html>
+<html>
+    <head>
+        <title>Belajar Javascript dari Nol</title>
+        <script>
+            // ini adalah penulisan kode javascript
+            // di dalam tag <head>
+            console.log("Hello JS dari Head");
+        </script>
+    </head>
+    <body>
+        <p>Tutorial Javascript untuk Pemula</p>
+        <script>
+            // ini adalah penulisan kode javascript
+            // di dalam tag <body>
+            console.log("Hello JS dari body");
+        </script>
+    </body>
+</html>```
 
