@@ -55,7 +55,7 @@ JavaScript Code Writing<br>
 <ol type="1">
     <li>Embed Writing</li>
     
-`<!DOCTYPE html>
+--- <!DOCTYPE html>
     <html>
        <head>
        <title>Learn JS</title>
@@ -69,7 +69,7 @@ JavaScript Code Writing<br>
            console.log("Hello JS form tag body");
          </script>
        </body>
-       </html>`
+       </html>---
        
 <li>Inline Writing</li>
 ```<a href="#" onclick="alert('Hello!')">Click Me!</a>```
