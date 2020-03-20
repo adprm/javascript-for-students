@@ -24,6 +24,14 @@ these are some JavaScript source code for learning and making a project.
         </li>
         <li>
             <a href="https://github.com/adprm/JavaScript-for-Students/tree/JavaScript-Function">JavaScript-Function</a>
+                <ul>
+                <li>JS Function Writing</li>
+                <li>JS Function Call</li>
+                <li>JS Function Click Event</li>
+                <li>JS Function with Parameter</li>
+                <li>JS Function Return Value</li>
+                <li>JS Function CRUD</li>
+            </ul>
         </li>
         <li>
             <a href="https://github.com/adprm/JavaScript-for-Students/tree/JavaScript-DOM">JavaScript-DOM</a>
