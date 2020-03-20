@@ -1,6 +1,19 @@
-# JavaScript-for-Students
-This time there are several sources of JavaScript code about arrays for practice. 
-Array has many methods in writing the code, and has the use of each function
-Follow the learning based on numbers from learn17.js - learn30.js.
+# JavaScript-Array
 
-next learn => https://github.com/adprm/JavaScript-for-Students/tree/JavaScript-Function
+Data structure is a method or method used to store data in computer memory.<br>
+One data structure that is often used in programming is Array.<br>
+Arrays are data structures that are used to store a set of data in one place.<br>
+Every data in an Array has an index, so we will easily process it.<br>
+
+# Basic writing of arrays
+Array of one data type<br>
+`var exampleArrayData = ['Pulpen', 'Pensil', 'Buku'];`
+
+Array of many data types<br>
+`var exampleArrayData2 = [15, 4.5, true, 'A', 'Indonesia'];`
+
+Get data array
+```
+var exampleArrayData = ['Pulpen', 'Pensil', 'Buku'];
+exampleArrayData2[2];  //Buku
+```
