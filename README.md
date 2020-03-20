@@ -47,3 +47,21 @@ these are some JavaScript source code for learning and making a project.
             </ul>
         </li>
     </ol>
+
+# JavaScript Writing
+
+`<!DOCTYPE html>`
+`<html>`
+`<head>`
+    `<meta charset="utf-8">`
+    `<title>Penulisan Javascript</title>`
+    `<script>`
+        `console.log("Hi, ini kode Javascript");`
+    `</script>`
+`</head>`
+`<body>`
+    `<script>`
+        `document.write("Javascript itu keren!");`
+    `</script>`
+`</body>`
+`</html>`
