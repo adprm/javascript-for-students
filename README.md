@@ -50,20 +50,46 @@ these are some JavaScript source code for learning and making a project.
 
 # JavaScript Writing
 
+1. Tag Script
+
 ```
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Penulisan Javascript</title>
+    <title>JavaScript Writing</title>
     <script>
-        console.log("Hi, ini kode Javascript");
+        console.log("Learn JavaScript");
     </script>
 </head>
 <body>
     <script>
-        document.write("Javascript itu keren!");
+        document.write("Hello JavaScript!");
     </script>
 </body>
 </html>
+```
+
+2. External Writing
+   `index.html`
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript Writing</title>
+</head>
+<body>
+
+</body>
+
+<script src="index.js"></script>
+</html>
+```
+
+`index.js`
+
+```
+alert("This is JavaScript");
 ```
