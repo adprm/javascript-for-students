@@ -53,23 +53,21 @@ these are some JavaScript source code for learning and making a project.
 JavaScript Code Writing<br>
 <ol type="1">
         <li>Embed Writing</li>
+        
         ```<!DOCTYPE html>
-<html>
+        <html>
     <head>
-        <title>Belajar Javascript dari Nol</title>
+        <title>Learn JS</title>
         <script>
-            // ini adalah penulisan kode javascript
-            // di dalam tag <head>
-            console.log("Hello JS dari Head");
+            console.log("Hello JS from tag Head");
         </script>
     </head>
     <body>
         <p>Tutorial Javascript untuk Pemula</p>
         <script>
-            // ini adalah penulisan kode javascript
-            // di dalam tag <body>
-            console.log("Hello JS dari body");
+            console.log("Hello JS form tag body");
         </script>
     </body>
-</html>```
+    </html>
+```
 
