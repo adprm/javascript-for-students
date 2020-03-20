@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM Array Element</title>
+</head>
+
+<body>
+    <p class="paragraf">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam ab sunt eligendi neque repellat
+        magni doloremque asperiores. Corrupti, a. Tempora?</p>
+    <p class="paragraf">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam ab sunt eligendi neque repellat
+        magni doloremque asperiores. Corrupti, a. Tempora?</p>
+    <p class="paragraf">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam ab sunt eligendi neque repellat
+        magni doloremque asperiores. Corrupti, a. Tempora?</p>
+</body>
+
+<script>
+    // mangaksek element berdasarkan class
+    var getParagraf = document.getElementsByClassName("paragraf");
+
+    // menggunakan fungsi setInterval dan setTimeout untuk mengatur warna
+    setInterval(() => {
+        getParagraf[0].style.color = "red";
+        getParagraf[1].style.color = "blue";
+        getParagraf[2].style.color = "yellow";
+
+        setTimeout(() => {
+            getParagraf[0].style.color = "black";
+            getParagraf[1].style.color = "black";
+            getParagraf[2].style.color = "black";
+        }, 500);
+    }, 1000);
+</script>
+
+</html>
