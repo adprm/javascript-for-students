@@ -72,10 +72,10 @@ JavaScript Code Writing<br>
        </html>`
        
 <li>Inline Writing</li>
-`<a href="#" onclick="alert('Hello!')">Click Me!</a>`
+```<a href="#" onclick="alert('Hello!')">Click Me!</a>```
 
 <li>External Writing</li>
-`<!DOCTYPE html>
+```<!DOCTYPE html>
  <html>
    <head>
      <title>Learn JS</title>
@@ -85,5 +85,6 @@ JavaScript Code Writing<br>
         <!-- insert external code -->
         <script src="js-code.js"></script>
     </body>
-</html>`
-</ul>
+ </html>
+ ```
+ </ul>
