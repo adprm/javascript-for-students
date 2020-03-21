@@ -20,4 +20,5 @@ exampleArrayData2[2];  //Buku
 Download Source code https://github.com/adprm/JavaScript-for-Students/archive/JavaScript-Array.zip<br>
 
 # Next learn
+<a href="https://github.com/adprm/JavaScript-for-Students/tree/JavaScript-Function">JavaScript-Function</a>
 
