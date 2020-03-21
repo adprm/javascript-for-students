@@ -98,5 +98,7 @@ alert("This is JavaScript");
 
 `<button onclick="alert('Hello JavaScript')">Click ME!</button>`
 
+Download Source code https://github.com/adprm/JavaScript-for-Students/archive/JavaScript-Fundamentals.zip<br>
+
 # Next learn
 <a href="https://github.com/adprm/JavaScript-for-Students/tree/JavaScript-Array">JavaScript-Array</a>
