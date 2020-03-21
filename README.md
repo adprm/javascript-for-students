@@ -97,3 +97,6 @@ alert("This is JavaScript");
 3. Attribute Writing
 
 `<button onclick="alert('Hello JavaScript')">Click ME!</button>`
+
+# Next learn
+<a href="https://github.com/adprm/JavaScript-for-Students/tree/JavaScript-Array">JavaScript-Array</a>
