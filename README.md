@@ -29,4 +29,5 @@ perosn.walk();          //this is method walk
 Download source code https://github.com/adprm/JavaScript-for-Students/archive/JavaScript-Object.zip
 
 # Next learn
-soon
+
+<a href="https://github.com/adprm/JavaScript-for-Students/tree/JavaScript-Math">JavaScript-Math</a>
