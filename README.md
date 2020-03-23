@@ -47,7 +47,7 @@ these are some JavaScript source code for learning and making a project.
             </ul>
         </li>
         <li>
-            <a href="https://github.com/adprm/JavaScript-for-Students/tree/JavaScript-Math ">Script-Object</a>
+            <a href="https://github.com/adprm/JavaScript-for-Students/tree/JavaScript-Object">Script-Object</a>
                 <ul>
                 <li>JS Object Basic</li>
                 <li>JS Object This</li>
