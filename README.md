@@ -31,4 +31,4 @@ Download source code https://github.com/adprm/JavaScript-for-Students/archive/Ja
 
 # Next learn
 
-<a href="https://github.com/adprm/JavaScript-for-Students/tree/JavaScript-Object">JavaScript-DOM</a>
+<a href="https://github.com/adprm/JavaScript-for-Students/tree/JavaScript-Object">JavaScript-Object</a>
