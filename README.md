@@ -52,8 +52,9 @@ these are some JavaScript source code for learning and making a project.
                 <li>JS Object Basic</li>
                 <li>JS Object This</li>
                 <li>JS Object Class</li>
+                </ul>
         </li>
-         <li>
+        <li>
             <a href="https://github.com/adprm/JavaScript-for-Students/tree/JavaScript-Math">JavaScript-Object-Math</a>
                 <ul>
                 <li>JS Math Trigonometry</li>
@@ -61,7 +62,8 @@ these are some JavaScript source code for learning and making a project.
                 <li>JS Math Rounding up</li>
                 <li>JS Math Roo Function</li>
                 <li>JS Math Math Random</li>
-                <li>JS Math Max - Min
+                <li>JS Math Max - Min</li>
+                </ul>
         </li>
     </ol>
 
