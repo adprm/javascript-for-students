@@ -30,10 +30,20 @@ var nameFunction = () => {
 ```
 
 Function with arrow => function 1 statement
-`var nameFunction = () => console.log("Hello world")`
+
+```
+var nameFunction = () => console.log("Hello world")
+```
 
 Constructor function
-`var nameFunction = new Function('console.log("Hello world");');`
+
+```
+var nameFunction = new Function('console.log("Hello world");');
+```
 
 Calling function
-`nameFunction()`
+
+```
+nameFunction()
+`
+```
