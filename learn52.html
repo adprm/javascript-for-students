@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Ajax Funmentals</title>
+</head>
+
+<body>
+    <h1>Learn ajax</h1>
+    <div id="result"></div>
+    <button onclick="loadContent()">Load Content</button>
+</body>
+
+<script>
+    loadContent = () => {
+        var xhr = new XMLHttpRequest();
+        var url = "https://api.github.com/users/petanikode";
+
+        xhr.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("result").innerHTML = this.responseText;
+            }
+        };
+
+        xhr.open("GET", url, true)
+        xhr.send();
+    }
+</script>
+
+</html>
