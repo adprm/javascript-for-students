@@ -1,7 +1,7 @@
-// Pendahuluan
-// 1 . ini aadalh komentar tidak akan di eksekusi
-/* ada juga yang seperti ini 
-untuk lebih dari 1 baris */
-console.log("Ini perintah untu dilihat hasil nya di console");
-document.write("Ini perintah untuk di lihat di halapan page web");
-alert("Ini perintah untuk menampilkan jendela di web");
+// Preliminary
+// 1 . This is a comment that will not be executed
+/* There is also something like this
+for more than 1 line */
+console.log("This commands to see the results in the console");
+document.write("This is a command to look at on the page of the web page");
+alert("This is the command to display a window on the web");
