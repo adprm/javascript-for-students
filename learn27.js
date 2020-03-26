@@ -1,7 +1,7 @@
 // JavaScript Change Data Array
-var products = ['Topi', 'Tas', 'Baju', 'Sepatu'];
-document.write("Data array sebelum di ubah " + products + "<br>");
+var products = ['Hat', 'Bag', 'Clothes', 'Shoes'];
+document.write("Data array before changing " + products + "<br>");
 
 // change data array
-products[0] = 'Jaket';
-document.write("Data array setelah di ubah " + products);
+products[0] = 'Jacket';
+document.write("Data array after changing " + products);
