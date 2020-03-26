@@ -1,10 +1,10 @@
 // JavaScript Do While
-var ask = confirm("Apakah anda ingin mengulang ?")
+var ask = confirm("Do you want to repeat ?")
 var counter = 0;
 
 do {
     counter++;
-    ask = confirm("Mengulang ?")
+    ask = confirm("Repeat ?")
 } while (ask)
 
-document.write("Anda mengulang sebanyak " + counter + " kali")
+document.write("You repeat as much " + counter + " time")
