@@ -1,7 +1,7 @@
 // JavaScript Get Data Array with Looping For
-var myHobbies = ['Futsal', 'Ngoding', 'Bernyanyi', 'Menari'];
+var myHobbies = ['Futsal', 'Ngoding', 'Sing', 'Dance'];
 
-document.write("Hobi saya adalah : <br>")
+document.write("my hobby is : <br>")
 
 // get data array
 for (let i = 0; i < myHobbies.length; i++) {
