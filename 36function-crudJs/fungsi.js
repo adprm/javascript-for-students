@@ -1,37 +1,37 @@
 var dataProducts = [
-    "Buku Tulis",
-    "Pensil",
-    "Spidol"
+    "Notebooks",
+    "Pencil",
+    "Marker"
 ];
 
 
 function showProducts() {
     var listProducts = document.getElementById("list-products");
-    // clear list barang
+    // clear list items
     listProducts.innerHTML = "";
 
-    // cetak semua barang
+    // print all items
     for (let i = 0; i < dataProducts.length; i++) {
-        var btnEdit = "<a href='#' onclick='editBarang(" + i + ")'>Edit</a>";
-        var btnDelete = "<a href='#' onclick='deleteBarang(" + i + ")'>Hapus</a>";
+        var btnEdit = "<a href='#' onclick='editItem(" + i + ")'>Edit</a>";
+        var btnDelete = "<a href='#' onclick='deleteItem(" + i + ")'>Delete</a>";
 
         listProducts.innerHTML += "<li>" + dataProducts[i] + " [" + btnEdit + " | " + btnDelete + "]</li>";
     }
 }
 
-function addBarang() {
-    var input = document.querySelector("input[name=barang]");
+function addItem() {
+    var input = document.querySelector("input[name=item]");
     dataProducts.push(input.value);
     showProducts();
 }
 
-function editBarang(id) {
-    var newBarang = prompt("Nama baru", dataProducts[id]);
-    dataProducts[id] = newBarang;
+function editItem(id) {
+    var newItem = prompt("New name", dataProducts[id]);
+    dataProducts[id] = newItem;
     showProducts();
 }
 
-function deleteBarang(id) {
+function deleteItem(id) {
     dataProducts.splice(id, 1);
     showProducts();
 }
