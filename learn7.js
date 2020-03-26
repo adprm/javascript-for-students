@@ -1,5 +1,5 @@
 // JavaScript Branching Ternary Operator
-var ask = prompt("Apakah Jakarta ibu kota Indonesia ?");
-var answer = (ask.toUpperCase() == "IYA") ? "Benar" : "Salah";
+var ask = prompt("Is Jakarta the capital of Indonesia ?");
+var answer = (ask.toUpperCase() == "YES") ? "Right" : "False";
 
-document.write(`Jawaban anda : <b> ${answer}`);
+document.write(`Your answer : <b> ${answer}`);
