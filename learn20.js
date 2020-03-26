@@ -1,7 +1,7 @@
 // JavaScript Get Data Array with Looping For Each
-var days = ['senin', 'selasa', 'rabu', 'kamis', 'jumat', 'sabtu', 'miggu'];
+var days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
 // get data array
 days.forEach((days) => {
-    document.write("Mendapatkan data array dengan looping For Each <b>" + days + "</b><br>");
+    document.write("Get data arrays by looping For Each <b>" + days + "</b><br>");
 });
