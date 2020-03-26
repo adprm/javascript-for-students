@@ -1,20 +1,20 @@
 // JavaScript Function Writing
-// 1. cara biasa
+// 1. normal way
 function nameFunction() {
     console.log("Hello world");
 }
 
-// 2. fungsi dengan ekpresi
+// 2. function by expression
 var nameFunction = function () {
     console.log("Hello world");
 }
 
-// 3. fungsi dengan arrow => function
+// 3. function with arrow => function
 var nameFunction = () => {
     console.log("Hello world");
 }
-// cara kedua dengan arrow function, jika hanya menggunakan 1 statement
+// the second way with the arrow function, if only using 1 statement
 var nameFunction = () => console.log("Hello world")
 
-// 4. fungsi konstruktor
+// 4. constructor function
 var nameFunction = new Function('console.log("Hello world");');
