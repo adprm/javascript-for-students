@@ -1,8 +1,8 @@
 // JavaScript For Each and System Repeat
-var days = ['senin', 'selasa', 'rabu', 'kamis', 'jumat', 'sabtu', 'minggu'];
+var days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
 days.forEach((days) => {
     document.write(days + "<p>");
 });
 
-document.write("Menggunakan fungsi repeat hingga 50 <br>".repeat(50))
+document.write("Use the repeat function up to 50 <br>".repeat(50))
