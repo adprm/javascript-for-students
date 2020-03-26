@@ -13,3 +13,7 @@ var c = Math.tan(10);
 ```
 
 Download source code https://github.com/adprm/JavaScript-for-Students/archive/JavaScript-Math.zip
+
+# Next learn
+
+<a href="https://github.com/adprm/JavaScript-for-Students/tree/JavaScript-Ajax">JavaScript-Ajax</a>
