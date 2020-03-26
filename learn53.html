@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Ajax Load Content</title>
+</head>
+
+<body>
+    <h1>Learn Ajax <button id="btn-clear" onclick="clearResult()">Clear</button></h1>
+    <div id="result"></div>
+    <button id="load-content" onclick="loadContent()">Load Content</button>
+</body>
+
+<script>
+    function loadContent() {
+        var xhr = new XMLHttpRequest();
+        var url = "https://api.github.com/users/petanikode";
+
+        xhr.onloadstart = function () {
+            document.getElementById("load-content").innerHTML = "Loading..."
+        };
+
+        xhr.onerror = function () {
+            alert("Gagal mengambil data");
+        };
+
+        xhr.onprogress = function () {
+            if (this.responseText !== "") {
+                var data = JSON.parse(this.responseText);
+                var img = document.createElement("img");
+                img.src = data.avatar_url;
+
+                var name = document.createElement("h3");
+                name.innerHTML = data.name;
+
+                document.getElementById("result").append(img, name);
+                document.getElementById("load-content").innerHTML = "Done";
+
+                setTimeout(() => {
+                    document.getElementById("load-content").innerHTML = "Load again";
+                }, 3000);
+            }
+        }
+
+        xhr.open("GET", url, true);
+        xhr.send();
+    }
+
+    function clearResult() {
+        document.getElementById("result").innerHTML = "";
+    }
+</script>
+
+</html>
