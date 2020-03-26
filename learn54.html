@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Ajax method POST</title>
+</head>
+
+<body>
+    <h1>Send Data Ajax</h1>
+    <form action="" method="POST" onsubmit="return sendData()">
+        <p>
+            <label for="">Title</label>
+            <input type="text" name="" id="input-title" placeholder="Article title">
+        </p>
+        <p>
+            <label for="">Isi Artikel</label><br>
+            <textarea name="" id="body" placeholder="Isi Artikel" cols="30" rows="10"></textarea>
+        </p>
+        <input type="submit" value="send">
+    </form>
+</body>
+
+<script>
+    function sendData() {
+        var xhr = new XMLHttpRequest();
+        var url = "https://jsonplaceholder.typicode.com/posts";
+
+        var data = JSON.stringify({
+            title: document.getElementById("input-title").value,
+            body: document.getElementById("body").value,
+            userId: 1
+        });
+
+        xhr.open("POST", url, true);
+        xhr.setRequestHeader("Content-type", "application/json;charset=UTF-8");
+        xhr.onload = function () {
+            console.log(this.responseText);
+        }
+
+        xhr.send(data)
+        return false;
+    }
+</script>
+
+</html>
