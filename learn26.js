@@ -1,7 +1,7 @@
 // JavaScript Delete Data Array with Method Splice
-var flowersName = ['Melati', 'Mawar', 'Anggrek', 'Raflesia'];
+var flowersName = ['Jasmine', 'Rose', 'Orchid', 'Raflesia'];
 document.write("Data array sebelum dihapus " + flowersName + "<br>");
 
 // delete data array with method splice
-flowersName.splice(2, 1); //  2 merupakan index array, 1 merupakan jumlah data yang dihapus
-document.write("Data array setelah dihapus " + flowersName);
+flowersName.splice(2, 1); //  2 is an array index, 1 is the amount of data that is deleted
+document.write("Array data after being deleted " + flowersName);
