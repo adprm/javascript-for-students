@@ -1,22 +1,22 @@
 // JavaScript Array Method Filter
-// contoh 1
+// example 1
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-// memfilter atau mendapatkan bilangan data ganjil dengan method filter
+// filter or get odd data numbers with filter methods
 const filterDataNumbers = numbers.filter((dataNumbers => {
     return dataNumbers % 2 === 1
 }));
 
-// menampilkan data yang telah difilter
+// display filtered data
 document.write(filterDataNumbers + "<br>");
 
-// contoh 2
+// example 2
 const studentsName = ['Adit', 'Bayu', 'Citra', 'Dimas', 'Della', 'Elisa'];
 
-// memfilter atau mendapatkan data dengan jumlah 5 karakter
+// filter or get data with a total of 5 characters
 const filterStudentsName = studentsName.filter((dataStudentsName => {
     return dataStudentsName.length === 5;
 }));
 
-// menampilkan data yang telah difilter
+// display filtered data
 document.write(filterStudentsName);
