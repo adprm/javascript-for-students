@@ -1,12 +1,12 @@
 // JavaScript Array Method Includes
-var flowersName = ['melati', 'mawar', 'kamboja', 'raflesia'];
+var flowersName = ['jasmine', 'rose', 'Cambodia', 'raflesia'];
 
-// mencari data bunga mawar
-var thereRose = flowersName.includes('mawar');
-// pembuktian
+// looking for rose data
+var thereRose = flowersName.includes('rose');
+// proof
 document.write(thereRose + "<br>");
 
-// mencari data bunga anggrek
-var thereOrchid = flowersName.includes('anggrek');
-// pembuktian
+// looking for orchid data
+var thereOrchid = flowersName.includes('orchid');
+// proof
 document.write(thereOrchid);
