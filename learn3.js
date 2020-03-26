@@ -1,7 +1,7 @@
 // JavaScript If
-var totalShopping = prompt("Masukkan total belanja anda : ", 0);
+var totalShopping = prompt("Enter your total shopping : ", 0);
 
 if (totalShopping >= 100000) {
-    document.write("Selamat anda dapat hadiah karena belanja lebih dari 100.000<br>");
+    document.write("Congratulations on your prize for spending more than 100,000<br>");
 }
-document.write("Terimakash telah berbelanja di toko kami")
+document.write("Terimakash has shopped at our store")
