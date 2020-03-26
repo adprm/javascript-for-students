@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Ajax method GET with Jquery</title>
+    <!-- jsquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <h1>Onload Data</h1>
+    <img src="" alt="" id="avatar" width="100" height="100">
+    <br>
+    <h3 id="name"></h3>
+    <p id="location"></p>
+</body>
+
+<script>
+    var url = "https://api.github.com/users/petanikode";
+    $.get(url, function (data, status) {
+        $("#avatar").attr("src", data.avatar_url);
+        $("#name").text("src", data.name);
+        $("#location").text(data.location);
+    })
+</script>
+
+</html>
