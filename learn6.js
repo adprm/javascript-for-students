@@ -1,35 +1,35 @@
 // JavaScript Switch Case
-var days = prompt("Masukkan hari untuk cek mata kuliah : ");
-var inputScores = prompt("Masukkan nilai anda : ", 0);
+var days = prompt("Enter the day to check the course : ");
+var inputScores = prompt("Enter your grades : ", 0);
 var coursesSchedules = "";
 var grades = "";
 switch (days) {
-    case "senin":
+    case "Monday":
         coursesSchedules = "Networking"
         break;
-    case "selasa":
+    case "Tuesday":
         coursesSchedules = "Programming"
         break;
-    case "rabu":
+    case "Wednesday":
         coursesSchedules = "Algorithm"
         break;
-    case "kamis":
+    case "Thursday":
         coursesSchedules = "Mathematics"
         break;
-    case "jumat":
+    case "Friday":
         coursesSchedules = "English Language"
         break;
-    case "sabtu":
+    case "Saturday":
         coursesSchedules = "Technology"
         break;
     default:
-        document.write("Input salah");
+        document.write("Incorrect input");
 }
 
 if (coursesSchedules == "") {
-    document.write("Tidak ada schedule<br>");
+    document.write("There is no schedule<br>");
 } else {
-    document.write("Jadwal mata kuliah hari " + days + " adalah " + coursesSchedules + "<br>");
+    document.write("Day course schedule " + days + " is " + coursesSchedules + "<br>");
 }
 
 switch (true) {
@@ -48,4 +48,4 @@ switch (true) {
     default:
         grades = "E"
 }
-document.write("Nilai anda " + inputScores + " maka grade anda " + grades);
+document.write("Your score " + inputScores + " then your grade " + grades);
