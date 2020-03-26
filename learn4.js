@@ -1,9 +1,9 @@
 // JavaScript If Else
-var login = prompt("Masukkan password : ");
+var login = prompt("Enter password : ");
 if (login == "adit") {
-    document.write("password benar<br>");
+    document.write("correct password<br>");
 } else {
-    document.write("Password salah<br>")
+    document.write("Password wrong<br>")
 }
 
-document.write("Terimakasih")
+document.write("Thank you")
