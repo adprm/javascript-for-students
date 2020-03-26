@@ -1,11 +1,11 @@
 // JavaScript Add Data Array with Method Push
 var nameStudents = ['Adit', 'Dimas', 'Jean'];
-document.write("Data array sebelum di tambahkan dengan method push <b>" + nameStudents + "</b><br>");
+document.write("Data array before adding to the push method <b>" + nameStudents + "</b><br>");
 
-// menambahkan data array
+// Add data arrays
 nameStudents.push('Arya');
-document.write("Setelah di tambahkan <b>" + nameStudents + "</b><br>");
+document.write("After adding <b>" + nameStudents + "</b><br>");
 
-// dapat juga menambahkan data sekaligus
+// can also add data at once
 nameStudents.push('Kevin', 'Ferdy', 'Ria');
-document.write("Menambahkan data array sekaligus <b>" + nameStudents)
+document.write("Add data arrays at once <b>" + nameStudents)
