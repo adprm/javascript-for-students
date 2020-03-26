@@ -3,8 +3,8 @@ var a = 10;
 var b = 2;
 var c = 0;
 
-// operator aritmatika
-document.write("Operator Aritmatika");
+// arithmetic operator
+document.write("arithmetic operator");
 c = a + b;
 document.write(`${a} + ${b} = ${c}<br\>`);
 c = a - b;
@@ -18,10 +18,10 @@ document.write(`${a} / ${b} = ${c}<br\>`);
 c = a % b;
 document.write(`${a} % ${b} = ${c}<br\>`);
 
-// operator penugasan
+// assignment operator
 var score = 20;
-document.write("Operator penugasan" + "<br>");
-document.write("Nilai awal score : " + score + "<br>");
+document.write("assignment operator" + "<br>");
+document.write("Initial value score : " + score + "<br>");
 score += 5;
 document.write("score += 5 = " + score + "<br>");
 score -= 3;
@@ -35,11 +35,11 @@ document.write("score **= 3 = " + score + "<br>");
 score %= 3;
 document.write("score %= 3 = " + score + "<br>");
 
-// operator perbandingan
+// comparison operator
 var a = 2;
 var b = 5;
 var typeDataString = "2";
-document.write("Operator perbandingan")
+document.write("comparison operator")
 var c = a == b;
 document.write(`${a} == ${b} = ${c}<br\>`);
 var c = a > b;
@@ -55,13 +55,13 @@ document.write(`${a} != ${b} = ${c}<br\>`);
 var c = a === typeDataString;
 document.write(`${a} === ${typeDataString} = ${c}<br\>`);
 
-// operator logika
+// logic operator
 var me = 20;
 var you = 19;
 var itsTrue = me > you;
 var itsFalse = me < you;
 
-document.write("Operator logika");
+document.write("logic operator");
 var resutl = itsTrue && itsFalse;
 document.write(`${itsTrue} && ${itsFalse} = ${resutl}<br\>`);
 var resutl = itsTrue || itsFalse;
@@ -69,10 +69,10 @@ document.write(`${itsTrue} || ${itsFalse} = ${resutl}<br\>`);
 var resutl = !itsTrue;
 document.write(`!${itsTrue} = ${resutl}<br\>`);
 
-// operator bitwise
+// bitwise operator
 var x = 4;
 var y = 3;
-document.write("Operator bitwise")
+document.write("bitwise operator")
 // bitwaise and
 var resutl = x & y;
 document.write(`${x} & ${y} = ${resutl}<br\>`);
@@ -82,7 +82,7 @@ document.write(`${x} | ${y} = ${resutl}<br\>`);
 // operator xor
 var resutl = x ^ y;
 document.write(`${x} ^ ${y} = ${resutl}<br\>`);
-// operator negasi
+// operator negation
 var resutl = ~x;
 document.write(`~${x} = ${resutl}<br\>`);
 // right shift
@@ -95,8 +95,8 @@ document.write(`${x} << ${y} = ${resutl}<br\>`);
 var resutl = x >>> y;
 document.write(`${x} >>> ${y} = ${resutl}<br\>`);
 
-// operator ternary
-var ask = confirm("Apakah anda 18 tahun ?");
-var resutl = ask ? "Selamat datang" : "kamu tidak boleh disini";
-document.write("Operator ternary<br>");
+// ternary operator
+var ask = confirm("Are you 18 years old? ?");
+var resutl = ask ? "welcome" : "you can't be here";
+document.write("ternary operator<br>");
 document.write(resutl);
