@@ -1,7 +1,7 @@
 // JavaScript Add Data Array
-var products = ['Topi', 'Baju', 'Sepatu'];
-document.write("Data array sebelum di tambahkan <b>" + products + "</b><br>");
+var products = ['Hat', 'Clothes', 'Shoes'];
+document.write("Data array before adding <b>" + products + "</b><br>");
 
-// menambahkan data array
-products[3] = 'Celana';
-document.write("Data array setelah di tambahkan <b>" + products);
+// add data array
+products[3] = 'Pants';
+document.write("Array data after adding <b>" + products);
