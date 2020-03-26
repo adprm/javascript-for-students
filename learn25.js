@@ -1,7 +1,7 @@
 // JavaScript Delete Data Array with Method Shift
 var nameCountries = ['Indonesia', 'Singapore', 'China', 'Jepang'];
-document.write("Sebelum data array dihapus " + nameCountries + "<br>");
+document.write("Before the array data is deleted " + nameCountries + "<br>");
 
 // delete data array with method shift
 nameCountries.shift();
-document.write("Data array sesudah dihapus " + nameCountries);
+document.write("Array data after being deleted " + nameCountries);
