@@ -1,9 +1,9 @@
 // JavaScript If and Operator Logica
-var username = prompt("Masukkan username anda : ");
-var password = prompt("Masukkan password anda : ");
+var username = prompt("Enter your username : ");
+var password = prompt("Enter your password : ");
 
 if ((username.toUpperCase() == "ADIT") && (password.toUpperCase() == "TIDA")) {
-    document.write("Anda berhasl login")
+    document.write("You have successfully logged in")
 } else {
-    document.write("Input tidak valid. Login gagal")
+    document.write("Invalid input. Login failed")
 }
