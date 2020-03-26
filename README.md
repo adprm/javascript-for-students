@@ -65,6 +65,19 @@ these are some JavaScript source code for learning and making a project.
                 <li>JS Math Max - Min</li>
                 </ul>
         </li>
+        <li>
+            <a href="https://github.com/adprm/JavaScript-for-Students/tree/JavaScript-Ajax">JavaScript-Ajax</a>
+                <ul>
+                <li>JS Ajax Introduction</li>
+                <li>JS Ajax Method GET</li>
+                <li>JS Ajax Load Content</li>
+                <li>JS Ajax Method POST</li>
+                <li>JS Ajax with JQuery</li>
+                <li>JS Ajax Method GET JQuery</li>
+                <li>JS Ajax Method Fetch</li>
+                <li>JS Ajax with Axios</li>
+                </ul>
+        </li>
     </ol>
 
 # JavaScript Writing
