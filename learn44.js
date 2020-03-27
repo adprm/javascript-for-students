@@ -14,11 +14,11 @@ function person(firstName, lastName) {
     }
 };
 
-// membuat variable untuk paramater objek
+// create variables for object parameters
 var person1 = new person("Aditiya", "Permana");
 var person2 = new person("Permana", "Aditiya");
 
-// menampilkan data
+// display data
 person1.showName();
 document.write("<br>");
 person2.showName();
