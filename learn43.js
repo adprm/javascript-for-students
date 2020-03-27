@@ -11,5 +11,5 @@ var person = {
     }
 }
 
-// meanmpilkan object
+// mean show object
 person.fullName();
