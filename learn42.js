@@ -1,27 +1,27 @@
 // JavaScript Obejct
-// membuat object dari car
+// make an object from the car
 var car = {
-    // membuat property
+    // make property
     name: "Toyota",
     color: "red",
     model: 500,
 
-    // membuat method
+    // make a method
     start: function () {
-        document.write("Ini method start<br>");
+        document.write("This method start<br>");
     },
     drive: function () {
-        document.write("Ini method drive<br>");
+        document.write("This method drive<br>");
     },
     brake: function () {
-        document.write("Ini method brake<br>");
+        document.write("This method brake<br>");
     },
     stop: function () {
-        document.write("Ini method stop<br>")
+        document.write("This method stop<br>")
     }
 };
 
-// mengakses mehod property dan method object
+// access the mehod property and object method
 // nameobject.property
 document.write(car.name + "<br>");
 document.write(car.model + "<br>");
