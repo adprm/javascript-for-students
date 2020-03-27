@@ -1,8 +1,8 @@
 // JavaScript Ajax Introduction
-// membuat objek ajax
+// create an ajax object
 var xhr = new XMLHttpRequest();
 
-// menentukan fungsi handler untuk event
+// determine the handler function for the event
 xhr.onreadystatechange = function () {
     // ...
 };
@@ -16,8 +16,8 @@ xhr.onprogress = function () {
     // ....
 }
 
-// menentukan method dan url
+// determine the method and url
 xhr.open("GET", url, true);
 
-// mengirim request
+// send request
 xhr.send();
