@@ -1,9 +1,9 @@
 // JavaScript Math Roo Function
-// fungsi akar kuadrat
+// quadratic root function
 var a = Math.sqrt(25);
 var b = Math.sqrt(81);
 
-// fungsi akar kubik
+// cubic root function
 var c = Math.cbrt(125);
 var d = Math.cbrt(27);
 
