@@ -1,5 +1,5 @@
 // JavaScript Ajax Basic Syntax Fetch
-// syntax dasar menggunakan method fetch
+// basic syntax uses the fetch method
 fetch('http://example.com/movies/json')
     .then(function (response) {
         return response.json();
@@ -8,7 +8,7 @@ fetch('http://example.com/movies/json')
         console.log(JSON.stringify(myJson));
     });
 
-// pengiriman data dengan method post
+// sending data with the post method
 fetch(url, {
         method: "POST", //  GET, POST, PUT, DELETE, etc
         mode: "cors", //  no-cors, cors, *same-origin
