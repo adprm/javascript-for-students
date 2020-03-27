@@ -1,9 +1,9 @@
 // JavaScript DOM Create Element
-// membuat element h1
+// make element h1
 var createElement = document.createElement("h1");
 
-// megisi text kedalam tag element
-createElement.textContent = "Saya membuat element ini dengan JavaScript DOM";
+// fill text into tag elements
+createElement.textContent = "I made this element with JavaScript DOM";
 
-// memasukkan element kedalam body
+// insert elements into the body
 document.body.append(createElement);
