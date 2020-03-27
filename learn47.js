@@ -1,15 +1,15 @@
 // JavaScript Math Rounding up
-// pembulatan ke bawah
+// rounding down
 var a = Math.floor(3.2);
 var b = Math.floor(3.7);
-// pembulatan ke angka terdekat
+// rounding to the nearest number
 var c = Math.round(3.5);
 var d = Math.round(5.3);
-// pembultan ke atas
+// consultant to the top
 var e = Math.ceil(2.7);
 var f = Math.ceil(2.2);
 
-// cek hasil di console
+// check the results in the console
 console.log(a);
 console.log(b);
 console.log(c);
