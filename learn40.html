@@ -8,18 +8,18 @@
 </head>
 
 <body>
-    <h1 id="content-delete">Ini adalah kontent yang akan di delete</h1>
-    <h2>Konten ini tidak akan di delete</h2>
+    <h1 id="content-delete">This is the content that will be deleted</h1>
+    <h2>This content will not be deleted</h2>
 </body>
 
 <script>
-    // mengakses element berdasarkan ID
+    // access elements based on ID
     var deleteContent = document.getElementById("content-delete");
 
     // method delete content
     deleteContent.remove();
 
-    console.log("Kontent h1 telah di hapus");
+    console.log("The h1 content has been deleted");
     console.log(deleteContent);
 </script>
 
